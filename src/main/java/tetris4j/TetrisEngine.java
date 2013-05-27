@@ -1,13 +1,11 @@
-package code;
+package tetris4j;
 
 import java.awt.*;
 import java.util.*;
 
-import javax.swing.*;
+import tetris4j.SoundManager.Sounds;
 
-import code.SoundManager.Sounds;
-
-import static code.ProjectConstants.*;
+import static tetris4j.ProjectConstants.*;
 
 /*This class calculates most of the block positions,
  * rotations, etc, although the TetrisPanel object

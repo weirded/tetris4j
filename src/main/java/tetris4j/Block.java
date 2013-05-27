@@ -1,4 +1,4 @@
-package code;
+package tetris4j;
 
 import java.awt.Color;
 

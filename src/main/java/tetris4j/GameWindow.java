@@ -1,15 +1,10 @@
-package code;
+package tetris4j;
 
-import static code.ProjectConstants.*;
+import static tetris4j.ProjectConstants.*;
 
 import java.awt.*;
-import java.io.IOException;
-import java.util.Arrays;
 
-import javax.sound.midi.*;
 import javax.swing.*;
-
-import code.SoundManager.Sounds;
 
 
 /*The game window.*/
@@ -23,7 +18,7 @@ public class GameWindow extends JFrame
 	/*Creates a GameWindow, by default.*/
 	public GameWindow()
 	{
-		this(STARTFS, null);
+		this(ProjectConstants.STARTFS, null);
 	}
 	
 	

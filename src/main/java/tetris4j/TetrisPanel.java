@@ -1,15 +1,16 @@
-package code;
-
-import java.awt.*;
-import java.awt.event.*;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.*;
+package tetris4j;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.HashMap;
+import java.util.Map;
 
-import static code.ProjectConstants.*;
+import static tetris4j.ProjectConstants.*;
 
 /*TetrisPanel is the panel that contains the (main)
  * panels AKA. core. This also holds most of the objects
@@ -32,7 +33,7 @@ public class TetrisPanel extends JPanel
 	public Image fg = null;
 	
 	/*Is it being controlled by a human or ai?*/
-	public boolean isHumanControlled = false;
+	public boolean isHumanControlled = true;
 	
 	/*AI object controlling the game.*/
 	public TetrisAI controller = null;
@@ -132,7 +133,6 @@ public class TetrisPanel extends JPanel
 		g.drawImage(bg, 0, 0, this);
 		engine.draw(g);
 		g.drawImage(fg, 0, 0, this);
-	
 	}
 
 	/*

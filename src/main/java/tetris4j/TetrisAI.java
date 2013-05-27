@@ -1,7 +1,7 @@
-package code;
+package tetris4j;
 
-import static code.ProjectConstants.sleep_;
-import static code.ProjectConstants.GameState;
+import static tetris4j.ProjectConstants.sleep_;
+import static tetris4j.ProjectConstants.GameState;
 import java.util.*;
 
 /*This is the default tetris playing AI. It holds a reference to
@@ -134,7 +134,7 @@ public class TetrisAI
 		}
 	}
 
-	// =============== Here be the AI code. ===============
+	// =============== Here be the AI tetris4j.code. ===============
 	
 	/*This can calculate the best possible fit for it, given the current
 	 * state the blocks are in.*/
@@ -413,7 +413,7 @@ public class TetrisAI
 		boolean c4free = in[0][3] + in[1][3] + in[2][3] + in[3][3] == 0;
 
 		int lfree = 0;
-		// Meh, I'm too lazy to code a loop for this.
+		// Meh, I'm too lazy to tetris4j.code a loop for this.
 		if(c1free){
 			lfree++;
 			if(c2free){

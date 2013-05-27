@@ -1,10 +1,8 @@
-package code;
-
-import static code.ProjectConstants.formatStackTrace;
-
-import java.awt.event.*;
+package tetris4j;
 
 import javax.swing.*;
+
+import static tetris4j.ProjectConstants.formatStackTrace;
 
 /*Class that starts the app!*/
 public class AppStart
