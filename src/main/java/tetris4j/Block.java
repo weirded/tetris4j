@@ -4,23 +4,26 @@ import java.awt.Color;
 
 /*More concrete representation of a block.*/
 public class Block implements Cloneable {
+
+  private static int RED_VALUE = 180;
+  private static int GREEN_VALUE = 160;
+
   public static final Color[] colors = {
 
-      new Color(255, 0, 0, 220),
-      new Color(255, 0, 0, 205),
-      new Color(255, 0, 0, 190),
-      new Color(255, 0, 0, 165),
-      new Color(255, 0, 0, 140),
-      new Color(255, 0, 0, 125),
-      new Color(255, 0, 0, 110)
+      new Color(RED_VALUE, 0, 0, 240),
+      new Color(RED_VALUE, 0, 0, 225),
+      new Color(RED_VALUE, 0, 0, 210),
+      new Color(RED_VALUE, 0, 0, 185),
+      new Color(RED_VALUE, 0, 0, 160),
+      new Color(RED_VALUE, 0, 0, 155),
+      new Color(RED_VALUE, 0, 0, 140)
   };
 
 
   public static final int EMPTY = 0, FILLED = 1, ACTIVE = 2;
 
   /*Color of an empty block.*/
-  public static final Color emptycolor =
-      new Color(120, 120, 120, 90);
+  public static final Color emptycolor = new Color(120, 120, 120, 90);
 
   /*State of the block.*/
   private volatile int state = EMPTY;
@@ -84,6 +87,6 @@ public class Block implements Cloneable {
   }
 
   public void colorFilled() {
-    color = new Color(0, 255, 0, color.getAlpha());
+    color = new Color(0, GREEN_VALUE, 0, color.getAlpha());
   }
 }

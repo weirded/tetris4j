@@ -1,9 +1,10 @@
 package tetris4j;
 
-import java.awt.*;
-import java.util.*;
-
 import tetris4j.SoundManager.Sounds;
+
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Random;
 
 import static tetris4j.ProjectConstants.*;
 
@@ -318,7 +319,7 @@ public class TetrisEngine {
             mainy + c2 * squaredim, squaredim, squaredim);
 
         //Draw square borders.
-        g.setColor(new Color(255, 255, 255, 25));
+        g.setColor(new Color(180, 0, 0, 25));
         g.drawRect(mainx + c1 * squaredim,
             mainy + c2 * squaredim, squaredim, squaredim);
 
