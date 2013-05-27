@@ -1,4 +1,4 @@
-###### Lazy eyed tetris4j
+# Lazy eyed tetris4j
 
 Experimental clone of tetris4j (released under GPL here: https://code.google.com/p/tetris4j).
 Modified to be used with a pair of red/green glasses for experimental treatment of lazy eye/amblyopia.
