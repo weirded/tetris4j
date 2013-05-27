@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/145/trunk/Tetris/code
+END
+GeneticAIFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/145/trunk/Tetris/code/GeneticAIFinder.java
+END
+Tetromino.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/138/trunk/Tetris/code/Tetromino.java
+END
+TetrisEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/145/trunk/Tetris/code/TetrisEngine.java
+END
+GameWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/142/trunk/Tetris/code/GameWindow.java
+END
+SoundManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/144/trunk/Tetris/code/SoundManager.java
+END
+ProjectConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/145/trunk/Tetris/code/ProjectConstants.java
+END
+TetrisAI.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/145/trunk/Tetris/code/TetrisAI.java
+END
+Block.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/138/trunk/Tetris/code/Block.java
+END
+TetrisPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/145/trunk/Tetris/code/TetrisPanel.java
+END
+AppStart.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/141/trunk/Tetris/code/AppStart.java
+END
