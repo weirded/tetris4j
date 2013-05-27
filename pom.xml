@@ -28,6 +28,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
+        <version>1.10.b1</version>
         <configuration>
           <archive>
             <manifest>
@@ -35,6 +36,17 @@
               <mainClass>tetris4j.AppStart</mainClass>
             </manifest>
           </archive>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>com.mycila.maven-license-plugin</groupId>
+        <artifactId>maven-license-plugin</artifactId>
+        <configuration>
+          <header>src/etc/header.txt</header>
+          <includes>
+            <include>src/main/java/**</include>
+          </includes>
         </configuration>
       </plugin>
     </plugins>
